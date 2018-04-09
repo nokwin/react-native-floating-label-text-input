@@ -98,7 +98,7 @@ class FloatLabelTextField extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
+      <View style={[styles.container, this.props.containerStyle]}>
         <View style={styles.viewContainer}>
           <View style={[styles.paddingView, this.leftPadding()]} />
           <View style={[styles.fieldContainer, this.withBorder()]}>
