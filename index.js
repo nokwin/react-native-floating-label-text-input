@@ -103,7 +103,7 @@ class FloatLabelTextField extends Component {
           <View style={[styles.paddingView, this.leftPadding()]} />
           <View style={[styles.fieldContainer, this.withBorder()]}>
             <FloatingLabel visible={this.state.text}>
-              <Text style={[styles.fieldLabel, this.labelStyle()]}>{this.placeholderValue()}</Text>
+              <Text style={[styles.fieldLabel, this.props.labelStyle, this.labelStyle()]}>{this.placeholderValue()}</Text>
             </FloatingLabel>
             <TextFieldHolder withValue={this.state.text}>
               <TextInput {...this.props}
