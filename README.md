@@ -48,6 +48,7 @@ class SomeComponent extends Component {
 ### Components props (added)
 - containerStyle - Style for main wrapper component
 - valueStyle - Style for text input
+- labelFocusedStyle - Style for focused label
 
 ### Questions/Bugs/Ideas?
 Feel free to open an issue on github, send suggestions, fork this repository or contact me at eyal.eizenberg@samanage.com
