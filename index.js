@@ -109,7 +109,7 @@ class FloatLabelTextField extends Component {
               <TextInput {...this.props}
                 ref='input'
                 underlineColorAndroid="transparent"
-                style={[styles.valueText]}
+                style={[styles.valueText, this.props.valueStyle]}
                 defaultValue={this.props.defaultValue}
                 value={this.state.text}
                 maxLength={this.props.maxLength}

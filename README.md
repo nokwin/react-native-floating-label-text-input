@@ -45,6 +45,10 @@ class SomeComponent extends Component {
 - maxLength (Number) - Limits the maximum number of characters that can be entered. Use this instead of implementing the logic in JS to avoid flicker.
 - selectionColor (String) - The highlight (and cursor on ios) color of the text input.
 
+### Components props (added)
+- containerStyle - Style for main wrapper component
+- valueStyle - Style for text input
+
 ### Questions/Bugs/Ideas?
 Feel free to open an issue on github, send suggestions, fork this repository or contact me at eyal.eizenberg@samanage.com
 
